@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Age Verification</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #000;
+      color: #FFD700;
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      text-align: center;
+    }
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 40px;
+    }
+    .btn {
+      background-color: #FFD700;
+      color: #000;
+      border: none;
+      padding: 15px 30px;
+      font-size: 1rem;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    .btn:hover {
+      background-color: #e6c200;
+    }
+  </style>
+</head>
+<body>
+  <h1>Are you 18 or older?</h1>
+  <button class="btn" onclick="window.location.href='https://tone.affomelody.com/click?pid=122409&offer_id=25'">Yes</button>
+</body>
+</html>
