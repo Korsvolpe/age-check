@@ -3,14 +3,14 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Age Verification</title>
+  <title>Continue</title>
   <style>
     body {
       margin: 0;
       padding: 0;
-      background-color: #000;
+      background: linear-gradient(135deg, #0f0f0f, #1a1a1a);
       color: #FFD700;
-      font-family: Arial, sans-serif;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -21,24 +21,26 @@
     h1 {
       font-size: 2rem;
       margin-bottom: 40px;
+      letter-spacing: 1px;
     }
     .btn {
       background-color: #FFD700;
       color: #000;
       border: none;
-      padding: 15px 30px;
+      padding: 15px 35px;
       font-size: 1rem;
-      border-radius: 6px;
+      border-radius: 8px;
       cursor: pointer;
-      transition: background-color 0.3s ease;
+      transition: background-color 0.3s ease, transform 0.2s ease;
     }
     .btn:hover {
       background-color: #e6c200;
+      transform: scale(1.05);
     }
   </style>
 </head>
 <body>
-  <h1>Are you 18 or older?</h1>
-  <button class="btn" onclick="window.location.href='https://tone.affomelody.com/click?pid=122409&offer_id=25'">Yes</button>
+  <h1>Are you ready to move forward?</h1>
+  <button class="btn" onclick="window.location.href='https://tone.affomelody.com/click?pid=122409&offer_id=25'">Yes, I'm ready</button>
 </body>
 </html>
